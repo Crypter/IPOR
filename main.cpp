@@ -112,7 +112,7 @@ unsigned int counter=0;
 
 for(;;)
 	{
-		sprintf(netBuffer, "\xFF\xFF\xFF\xFF\xFF\x7E[%d]Text written for testing purposes, length of mnogu characters\n\x7E\xFF", counter++);
+		sprintf(netBuffer, "\xFF\xFF\xFF\xFF\xFF\x7E[%d]Text written for testing purposes, length of a lot of characters\n\x7E\xFF", counter++);
 		length = strlen(netBuffer);
 //		netBuffer[0] = 126;
 //		length = 8;
